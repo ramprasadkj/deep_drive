@@ -1,0 +1,21 @@
+
+class areaofcircle
+{
+	static void areaofcircle(double pi, double rad)
+	{
+		double value =pi * rad *rad;
+		System.out.println (value);
+	}
+		
+	
+	static void circumferenceofcircle (double pi, double rad)
+	{
+	double a = 2* pi * rad;
+	System.out.println(a);
+	}
+	public static void main(String[]args)
+		{
+		areaofcircle(3.14, 20);
+		circumferenceofcircle (3.14, 100);
+		}
+	}
